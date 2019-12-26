@@ -12,4 +12,4 @@ print("Battery Voltage is {}V".format( TinyPICO.get_battery_voltage() ) )
 print("Battery Charge State is {}\n".format( TinyPICO.get_battery_charging() ) )
 # micropython.mem_info()
 
-import range
+# import range

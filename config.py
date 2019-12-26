@@ -2,11 +2,12 @@
 from sys import platform
 from mqtt_as import config
 from led import dotstar
+from wifi_pass import wifi_pass # needs to contain one line: wifi_pass='password'
 
 config['server'] = '192.168.0.14'
 
 config['ssid'] = 'tve-home'
-config['wifi_pw'] = 'tve@home'
+config['wifi_pw'] = wifi_pass
 
 # For demos ensure the same calling convention for LED's on all platforms.
 # ESP8266 Feather Huzzah reference board has active low LED's on pins 0 and 2.
