@@ -1,0 +1,2 @@
+#! /bin/bash
+mpfshell -o ttyUSB0 -c "mput .*\.py; repl"
